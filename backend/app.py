@@ -17,7 +17,6 @@ from fastapi import FastAPI, Depends, HTTPException, Query, UploadFile, File, st
 from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy.orm import Session
 from sqlalchemy import desc
-
 from app.database import engine, Base, get_db
 from app.models import Device, FileArtifact
 from app.schemas import (
